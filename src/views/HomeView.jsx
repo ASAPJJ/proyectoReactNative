@@ -24,7 +24,7 @@ const HomeView = ({ navigation }) => {
     <Background url={require('../img/FondoPrincipal.jpg')}>
       <View style={styles.container}>
         {/* Título */}
-        <Text style={styles.title}>Bienvenido!!1!</Text>
+        <Text style={styles.title}>FreeGameFinder</Text>
         {/* Imagen */}
         <View style={styles.imageContainer}>
           <Image source={require('../img/LibreriaMc.jpg')} style={styles.squareImage} />

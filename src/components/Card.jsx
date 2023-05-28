@@ -41,6 +41,8 @@ const styles = StyleSheet.create({
     shadowRadius: 2.22,
     elevation: 3,
     alignItems: 'center',
+    // Agregar color de fondo para solucionar la advertencia
+    backgroundColor: '#fff',
   },
   image: {
     width: '100%',

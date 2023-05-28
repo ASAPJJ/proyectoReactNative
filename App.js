@@ -17,7 +17,7 @@ export default function App() {
           {/* Definición de las vistas/páginas de nuestra aplicación */}
           {/* Cada Screen representa una pantalla que se puede navegar */}
           {/* El nombre es el identificador de la pantalla y el componente es la vista que se mostrará */}
-          <Stack.Screen name="Inicio" component={HomeView} />
+          <Stack.Screen name="Bienvenido!!1!" component={HomeView} />
           <Stack.Screen name="Lista Juegos" component={ListGamesView} />
         </Stack.Navigator>
       </NavigationContainer>
